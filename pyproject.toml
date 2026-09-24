@@ -1,0 +1,21 @@
+[project]
+name = "ai-engineering-course-codespace"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "lbudy", email = "34880564+lbudy@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "openai>=3.19.2",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+ai-engineering-course-codespace = "ai_engineering_course_codespace:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
